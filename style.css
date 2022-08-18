@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(45, 112, 45);
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    background-color: white;
+    margin: 0 auto;
+    width: 35vw;
+    padding: 20px;
+    line-height: 10px;
+} 
+
+/* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+.hhjh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.textarea{
+    margin-top: 5px;
+}
+
+.submit{
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(45, 112, 45);
+    border: none;
+    width: inherit;
+    font-size: large;
+}
+
+@media (min-width:300px) and (max-width:800px) {
+    .form{
+    background-color: white;
+    margin: 0 auto;
+    width: 25vw;
+    padding: 10px;
+    line-height: 4px;
+    }
+
+    p{
+        white-space: wrap;
+        line-height: 15px;
+    }
+    
+}
