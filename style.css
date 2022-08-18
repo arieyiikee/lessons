@@ -9,7 +9,7 @@ h1{
 .form{
     background-color: white;
     margin: 0 auto;
-    width: 35vw;
+    max-width: 500px;
     padding: 20px;
     line-height: 10px;
 } 
@@ -42,7 +42,7 @@ h1{
     .form{
     background-color: white;
     margin: 0 auto;
-    width: 25vw;
+    width: 70vw;
     padding: 10px;
     line-height: 4px;
     }
